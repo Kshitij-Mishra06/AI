@@ -40,6 +40,6 @@ def print_path(path):
     else:
         print("No solution found.")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     result = dfs()
     print_path(result)
