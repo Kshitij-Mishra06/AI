@@ -37,4 +37,4 @@ while True:
         print_board(board)
         print("It's a draw!")
         break
-    player = 'O' if player == 'X' else 'X'
+    player = 'O' if player == 'X' else'X'
